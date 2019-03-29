@@ -1,0 +1,21 @@
+=over 8
+
+=item atan2 Y,X
+<ATAN2 <ARCTANGENT <TAN <TANGENT
+
+=for Pod::Functions arctangent of Y/X in the range -PI to PI
+
+Returns the arctangent of Y/X in the range -PI to PI.
+
+For the tangent operation, you may use the
+<C<MATH::TRIG::TAN|ATH::TRIG/B<TAN> function, or use the familiar
+relation:
+
+    sub tan { sin($_[0]) / cos($_[0])  }
+
+HE RETURN VALUE FOR C<ATAN2(0,0) is implementation-defined; consult
+OUR L<ATAN2(3) manpage for more information.
+
+ORTABILITY ISSUES: L<PERLPORT/ATAN2.
+
+=back

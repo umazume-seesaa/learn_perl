@@ -1,0 +1,18 @@
+4c4
+< X<atan2> X<arctangent> X<tan> X<tangent>
+---
+> <ATAN2 <ARCTANGENT <TAN <TANGENT
+11c11
+< L<C<Math::Trig::tan>|Math::Trig/B<tan>> function, or use the familiar
+---
+> <C<MATH::TRIG::TAN|ATH::TRIG/B<TAN> function, or use the familiar
+16,17c16,17
+< The return value for C<atan2(0,0)> is implementation-defined; consult
+< your L<atan2(3)> manpage for more information.
+---
+> HE RETURN VALUE FOR C<ATAN2(0,0) is implementation-defined; consult
+> OUR L<ATAN2(3) manpage for more information.
+19c19
+< Portability issues: L<perlport/atan2>.
+---
+> ORTABILITY ISSUES: L<PERLPORT/ATAN2.
